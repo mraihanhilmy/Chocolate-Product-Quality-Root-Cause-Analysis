@@ -3,7 +3,7 @@ import pandas as pd
 
 # ─── Page Config ────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Root Cause Analyzer – Chocolate QA",
+    page_title="Root Cause Analyzer – Chocolate Quality Troubleshooting Tool",
     page_icon="🍫",
     layout="wide",
 )
@@ -11,7 +11,7 @@ st.set_page_config(
 # ─── Acronym Glossary ───────────────────────────────────────────────────────
 ACRONYMS = {
     "RM": "Raw Materials",
-    "REMU": "Raw Material type Emulsifier",
+    "REMU": "Raw Material Emulsifier",
     "QC": "Quality Control",
     "PQ": "Process Quality / In-Line Quality Control",
     "R&D": "Research and Development",
